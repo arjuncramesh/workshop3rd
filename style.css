@@ -6,9 +6,6 @@ header{
     display: flex;
     align-items: center;
 } */
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
 .nav-contents {
   align-items: center;
   justify-content: flex-end;
@@ -119,10 +116,10 @@ header{
   display: flex;
   align-items: center;
 }
-.social{
+.social {
   margin-left: 80px;
 }
-.social i{
+.social i {
   padding-right: 10px;
 }
 .budget-property {
@@ -432,7 +429,6 @@ header{
 }
 .footer {
   background-color: #0d1b1e;
-  /* height: 639px; */
   color: #ffffff;
 }
 .footer .footer-discriptions {
@@ -581,13 +577,14 @@ header{
   }
   .create-account {
     background-color: white;
-    color:#626262;
+    color: #626262;
   }
   .create-account .cr {
     font-size: 15px;
     color: #626262;
-}
-  .social, .copyright{
+  }
+  .social,
+  .copyright {
     margin: 0;
     text-align: center;
   }
