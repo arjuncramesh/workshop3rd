@@ -607,4 +607,7 @@ header{
     width: 100%;
     overflow-x: hidden;
   }
+  .browsepadding{
+    padding-top: 20rem;
+  }
 }
