@@ -613,4 +613,7 @@ header{
   .news-head{
     padding-top: 12rem
   }
+  .states-heading {
+    padding-top: 20rem;
+  }
 }
