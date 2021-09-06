@@ -158,7 +158,7 @@ header{
 .premium-projects {
   margin-top: 73px;
 }
-.project-heading {
+.project-heading  {
   margin-top: 73px;
   margin-bottom: 60px;
   display: flex;
@@ -579,6 +579,9 @@ header{
     background-color: white;
     color: #626262;
   }
+  .Find-Your-Perfect-Properties-box-blur {
+    padding-top: 7rem;
+  }
   .create-account .cr {
     font-size: 15px;
     color: #626262;
@@ -600,8 +603,8 @@ header{
   .homes {
     width: 100%;
   }
-  .Find-Your-Perfect-Properties-box-blur {
-    padding-top: 7rem;
+  .project-heading{
+    padding-top: 3rem;
   }
   .card-img-top {
     width: 100%;
@@ -610,14 +613,11 @@ header{
     width: 100%;
     overflow-x: hidden;
   }
-  .project-heading{
-    padding-top: 3rem;
-  }
   .browsepadding{
     padding-top: 20rem;
   }
   .news-head{
-    padding-top: 12rem
+    padding-top:20rem
   }
   .states-heading {
     padding-top: 20rem;
