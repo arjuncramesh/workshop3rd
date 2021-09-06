@@ -610,6 +610,9 @@ header{
     width: 100%;
     overflow-x: hidden;
   }
+  .project-heading{
+    padding-top: 3rem;
+  }
   .browsepadding{
     padding-top: 20rem;
   }
