@@ -622,3 +622,14 @@ header{
     padding-top: 20rem;
   }
 }
+@media only screen and (max-width: 800px) {
+  .add-item {
+    width: auto;
+  }
+  .add-item-inside{
+    width: auto;
+  }
+  .budget-property{
+    width: auto;
+  }
+}
