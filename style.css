@@ -1,19 +1,3 @@
-/* .property-ok_logo{
-    width: 100%;
-    height: 100%;
-}
-header{
-    display: flex;
-    align-items: center;
-} */
-.nav-contents {
-  align-items: center;
-  justify-content: flex-end;
-  display: flex;
-  margin: 0;
-  text-align: right;
-  padding: 20px 20px 20px 20px;
-}
 .create-account span {
   color: white;
   font-size: 10px;
@@ -42,13 +26,17 @@ header{
   background-color: #626262;
   color: white;
 }
-
+.nav-contents {
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  margin: 0;
+  text-align: right;
+  padding: 20px 20px 20px 20px;
+}
 .create-account .cr {
   font-size: 15px;
   color: white;
-}
-.create-account p {
-  line-height: 80%;
 }
 .text-find {
   font-family: Nunito;
@@ -82,6 +70,9 @@ header{
   font-family: Nunito;
   text-align: center;
   color: white;
+}
+.create-account p {
+  line-height: 80%;
 }
 
 .text-find span {
@@ -158,7 +149,7 @@ header{
 .premium-projects {
   margin-top: 73px;
 }
-.project-heading  {
+.project-heading {
   margin-top: 73px;
   margin-bottom: 60px;
   display: flex;
@@ -166,15 +157,7 @@ header{
   justify-content: center;
   align-items: center;
 }
-.project-heading h3 {
-  font-family: Nunito;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: -0.5px;
-  text-align: center;
-}
+
 .project-heading .hr {
   width: 80px;
   height: 6px;
@@ -201,6 +184,15 @@ header{
 }
 .homes:hover {
   box-shadow: 0px 0px 8px rgba(58, 57, 57, 0.24);
+}
+.project-heading h3 {
+  font-family: Nunito;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.5px;
+  text-align: center;
 }
 .gems {
   position: absolute;
@@ -338,7 +330,6 @@ header{
   width: 116px;
   border-radius: 2px;
   padding: 14px, 24px, 14px, 24px;
-  background: #fef5e5;
   border: 1px solid #eb9f24;
   box-sizing: border-box;
   font-family: Nunito;
@@ -602,7 +593,7 @@ header{
   .homes {
     width: 100%;
   }
-  .project-heading{
+  .project-heading {
     padding-top: 3rem;
   }
   .card-img-top {
@@ -612,11 +603,11 @@ header{
     width: 100%;
     overflow-x: hidden;
   }
-  .browsepadding{
+  .browsepadding {
     padding-top: 20rem;
   }
-  .news-head{
-    padding-top:20rem
+  .news-head {
+    padding-top: 20rem;
   }
   .states-heading {
     padding-top: 20rem;
@@ -626,12 +617,10 @@ header{
   .add-item {
     width: auto;
   }
-  .add-item-inside{
-    width: auto;
-  }
-  .budget-property{
-    width: auto;
-  }
   .add-item-inside {
-     min-width: auto;
+    width: auto;
+  }
+  .budget-property {
+    width: auto;
+  }
 }
